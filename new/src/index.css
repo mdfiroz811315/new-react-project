@@ -14,17 +14,17 @@ th {
   background-color: rgb(144, 144, 225);
 }
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #a2af6f;
 }
 tr:nth-child(odd) {
-  background-color: #d7defa;
+  background-color: #88aeb4;
 }
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 tr:hover {
-  background-color: lightyellow;
+  background-color: rgb(38, 151, 176);
 }
 .centertext {
   text-align: center;
@@ -37,7 +37,7 @@ ul.sidenav {
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: #e7c7c7;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -45,19 +45,19 @@ ul.sidenav {
 
 ul.sidenav li a {
   display: block;
-  color: #000;
+  color: rgba(24, 23, 23, 0.919);
   padding: 8px 16px;
   text-decoration: none;
 }
  
 ul.sidenav li a.active {
   background-color: #4CAF50;
-  color: white;
+  color: rgb(234, 231, 234);
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+  background-color: rgb(190, 159, 159);
+  color: rgb(212, 174, 174);
 }
 
 div.content {
